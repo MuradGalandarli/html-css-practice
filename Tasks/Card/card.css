@@ -1,0 +1,129 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#container {
+    width: 400px;
+    height: 570px;
+    background-color: rgb(192, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#border {
+    width: 360px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    width: 335px;
+    height: 425px;
+    border-radius: 10px;
+    background-color: rgb(216, 220, 222);
+   
+}
+#campany{
+ display: flex;
+    /* align-items: end; */
+    justify-content: end;
+}
+
+#campany1 {
+    width: 110px;
+    height: 70px;
+    background-color: rgb(121, 121, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#campany2 {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 36px;
+    border-radius: 50%;
+    background-color: rgb(121, 121, 235)
+}
+
+strong {
+    font-size: 25px;
+    padding-left: 5px;
+}
+small{
+    color: rgb(224, 205, 205);
+}
+#title{
+   display: inline-block;
+   position: relative;
+    top: -38px;
+    left: 20px;
+   /* background-color: aqua; */
+   h2{
+color: rgb(93, 77, 77);
+font-size: 30px;
+   }
+}
+
+
+#info-place{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top:-60px;
+    display: flex;
+    justify-content: center;
+}
+#info{
+    width: 295px;
+    height: 300px;
+    gap: 20px;
+p{
+    
+    font-size: 20px;
+    color: rgb(121, 132, 139);
+}
+strong{
+    font-size: 20px;
+}
+}
+i{
+    color: rgb(77, 163, 163);
+}
+
+#btn-box{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    button{
+        width: 300px;
+        height: 60px;
+        border-radius: 8px;
+        border: none;
+        background-color: blueviolet;
+        font-size: 23px;
+        color: white;
+    }
+}
+
+
+
+
